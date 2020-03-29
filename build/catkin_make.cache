@@ -1,2 +1,2 @@
-beginner_tutorials:my_first_ros_pkg
+beginner_tutorials:marker_visualizer:my_first_ros_pkg:ros_tutorials_topic:turtlesim_pose_viewer
 -DCATKIN_DEVEL_PREFIX=/home/jdrjk0000/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jdrjk0000/catkin_ws/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/jdrjk0000/catkin_ws/devel
+
+Name: marker_visualizer
+Description: Description of marker_visualizer
+Version: 0.0.0
+Cflags: -I/home/jdrjk0000/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime
