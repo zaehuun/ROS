@@ -1,5 +1,5 @@
 #include <ros/ros.h>
-#include "marker_visualizer/marker_info.h"
+#include <marker_visualizer_msgs/marker_info.h>
 
 class MarkerSelector{
 	public:
@@ -8,11 +8,11 @@ class MarkerSelector{
 		ros::Publisher pub;
 
 		std::string shape;
-		marker_visualizer::marker_info msg;
+		marker_visualizer_msgs::marker_info msg;
 		int idx;
 
 		MarkerSelector():idx(0), shape("sphere") {
-			pub = nh.advertise<marker_visualizer::marker_info>("marker_info",10);
+			pub = nh.advertise<marker_visualizer_msgs::marker_info>("marker_info",10);
 		}
 
 		void genMsg(){

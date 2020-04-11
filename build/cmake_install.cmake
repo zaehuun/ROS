@@ -126,14 +126,17 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/jdrjk0000/catkin_ws/build/gtest/cmake_install.cmake")
-  include("/home/jdrjk0000/catkin_ws/build/marker_visualizer/cmake_install.cmake")
   include("/home/jdrjk0000/catkin_ws/build/multiple_topic_pkg/cmake_install.cmake")
   include("/home/jdrjk0000/catkin_ws/build/parameter_tutorials/cmake_install.cmake")
   include("/home/jdrjk0000/catkin_ws/build/service_tutorials/cmake_install.cmake")
+  include("/home/jdrjk0000/catkin_ws/build/boundingbox_visualizer_msgs/cmake_install.cmake")
+  include("/home/jdrjk0000/catkin_ws/build/marker_visualizer_msgs/cmake_install.cmake")
+  include("/home/jdrjk0000/catkin_ws/build/marker_visualizer/cmake_install.cmake")
   include("/home/jdrjk0000/catkin_ws/build/turtlesim_pose_viewer/cmake_install.cmake")
   include("/home/jdrjk0000/catkin_ws/build/beginner_tutorials/cmake_install.cmake")
   include("/home/jdrjk0000/catkin_ws/build/my_first_ros_pkg/cmake_install.cmake")
   include("/home/jdrjk0000/catkin_ws/build/ros_tutorials_topic/cmake_install.cmake")
+  include("/home/jdrjk0000/catkin_ws/build/boundingbox_visualizer/cmake_install.cmake")
 
 endif()
 

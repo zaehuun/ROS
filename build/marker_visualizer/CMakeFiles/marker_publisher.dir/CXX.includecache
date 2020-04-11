@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/jdrjk0000/catkin_ws/devel/include/marker_visualizer/marker_info.h
+/home/jdrjk0000/catkin_ws/devel/include/marker_visualizer_msgs/marker_info.h
 string
 -
 vector
@@ -25,8 +25,8 @@ ros/message_operations.h
 /home/jdrjk0000/catkin_ws/src/marker_visualizer/src/marker_publisher.cpp
 ros/ros.h
 -
-marker_visualizer/marker_info.h
-/home/jdrjk0000/catkin_ws/src/marker_visualizer/src/marker_visualizer/marker_info.h
+marker_visualizer_msgs/marker_info.h
+-
 visualization_msgs/Marker.h
 -
 

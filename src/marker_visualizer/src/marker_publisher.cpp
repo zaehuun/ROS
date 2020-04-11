@@ -1,5 +1,5 @@
 #include <ros/ros.h>
-#include "marker_visualizer/marker_info.h"
+#include <marker_visualizer_msgs/marker_info.h>
 #include <visualization_msgs/Marker.h>
 
 class MarkerPublisher{
@@ -17,7 +17,7 @@ public:
 		markerinfo_sub = nh.subscribe("marker_info",10,&MarkerPublisher::markerInfoCB,this);
 		rviz_pub = nh.advertise<visualization_msgs::Marker>("marker",10);
 	}
-	void markerInfoCB(const marker_visualizer::marker_info::ConstPtr& ptr){
+	void markerInfoCB(const marker_visualizer_msgs::marker_info::ConstPtr& ptr){
 		shape = ptr->shape;
 		x = ptr->x;
 		y = ptr->y;

@@ -98,8 +98,8 @@ marker_selector_EXTERNAL_OBJECTS =
 /home/jdrjk0000/catkin_ws/devel/lib/marker_visualizer/marker_selector: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
 /home/jdrjk0000/catkin_ws/devel/lib/marker_visualizer/marker_selector: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
 /home/jdrjk0000/catkin_ws/devel/lib/marker_visualizer/marker_selector: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/jdrjk0000/catkin_ws/devel/lib/marker_visualizer/marker_selector: /opt/ros/kinetic/lib/libroscpp_serialization.so
 /home/jdrjk0000/catkin_ws/devel/lib/marker_visualizer/marker_selector: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/jdrjk0000/catkin_ws/devel/lib/marker_visualizer/marker_selector: /opt/ros/kinetic/lib/libroscpp_serialization.so
 /home/jdrjk0000/catkin_ws/devel/lib/marker_visualizer/marker_selector: /opt/ros/kinetic/lib/librostime.so
 /home/jdrjk0000/catkin_ws/devel/lib/marker_visualizer/marker_selector: /opt/ros/kinetic/lib/libcpp_common.so
 /home/jdrjk0000/catkin_ws/devel/lib/marker_visualizer/marker_selector: /usr/lib/x86_64-linux-gnu/libboost_system.so
