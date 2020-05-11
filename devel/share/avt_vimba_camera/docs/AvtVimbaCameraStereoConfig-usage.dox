@@ -1,0 +1,68 @@
+\subsubsection usage Usage
+\verbatim
+<node name="avt_vimba_camera" pkg="avt_vimba_camera" type="avt_vimba_camera">
+  <param name="left_frame_id" type="str" value="left" />
+  <param name="left_trig_timestamp_topic" type="str" value="" />
+  <param name="left_acquisition_mode" type="str" value="Continuous" />
+  <param name="left_acquisition_rate" type="double" value="2.0" />
+  <param name="left_trigger_source" type="str" value="FixedRate" />
+  <param name="left_trigger_mode" type="str" value="On" />
+  <param name="left_trigger_selector" type="str" value="FrameStart" />
+  <param name="left_trigger_activation" type="str" value="RisingEdge" />
+  <param name="left_trigger_delay" type="double" value="0.0" />
+  <param name="left_ptp_mode" type="str" value="Off" />
+  <param name="left_sync_in_selector" type="str" value="SyncIn1" />
+  <param name="left_sync_out_polarity" type="str" value="Normal" />
+  <param name="left_sync_out_selector" type="str" value="SyncOut1" />
+  <param name="left_sync_out_source" type="str" value="GPO" />
+  <param name="right_frame_id" type="str" value="right" />
+  <param name="right_trig_timestamp_topic" type="str" value="" />
+  <param name="right_acquisition_mode" type="str" value="Continuous" />
+  <param name="right_acquisition_rate" type="double" value="2.0" />
+  <param name="right_trigger_source" type="str" value="FixedRate" />
+  <param name="right_trigger_mode" type="str" value="On" />
+  <param name="right_trigger_selector" type="str" value="FrameStart" />
+  <param name="right_trigger_activation" type="str" value="RisingEdge" />
+  <param name="right_trigger_delay" type="double" value="0.0" />
+  <param name="right_ptp_mode" type="str" value="Off" />
+  <param name="right_sync_in_selector" type="str" value="SyncIn1" />
+  <param name="right_sync_out_polarity" type="str" value="Normal" />
+  <param name="right_sync_out_selector" type="str" value="SyncOut1" />
+  <param name="right_sync_out_source" type="str" value="GPO" />
+  <param name="exposure" type="double" value="50000.0" />
+  <param name="exposure_auto" type="str" value="Continuous" />
+  <param name="exposure_auto_alg" type="str" value="FitRange" />
+  <param name="exposure_auto_tol" type="int" value="5" />
+  <param name="exposure_auto_max" type="int" value="50000" />
+  <param name="exposure_auto_min" type="int" value="41" />
+  <param name="exposure_auto_outliers" type="int" value="0" />
+  <param name="exposure_auto_rate" type="int" value="100" />
+  <param name="exposure_auto_target" type="int" value="50" />
+  <param name="gain" type="double" value="0.0" />
+  <param name="gain_auto" type="str" value="Continuous" />
+  <param name="gain_auto_tol" type="int" value="5" />
+  <param name="gain_auto_max" type="double" value="32.0" />
+  <param name="gain_auto_min" type="double" value="0.0" />
+  <param name="gain_auto_outliers" type="int" value="0" />
+  <param name="gain_auto_rate" type="int" value="100" />
+  <param name="gain_auto_target" type="int" value="50" />
+  <param name="balance_ratio_abs" type="double" value="1.0" />
+  <param name="balance_ratio_selector" type="str" value="Red" />
+  <param name="whitebalance_auto" type="str" value="Continuous" />
+  <param name="whitebalance_auto_tol" type="int" value="5" />
+  <param name="whitebalance_auto_rate" type="int" value="100" />
+  <param name="binning_x" type="int" value="1" />
+  <param name="binning_y" type="int" value="1" />
+  <param name="decimation_x" type="int" value="1" />
+  <param name="decimation_y" type="int" value="1" />
+  <param name="width" type="int" value="4096" />
+  <param name="height" type="int" value="4096" />
+  <param name="roi_width" type="int" value="0" />
+  <param name="roi_height" type="int" value="0" />
+  <param name="roi_offset_x" type="int" value="0" />
+  <param name="roi_offset_y" type="int" value="0" />
+  <param name="pixel_format" type="str" value="Mono8" />
+  <param name="stream_bytes_per_second" type="int" value="45000000" />
+</node>
+\endverbatim
+
